@@ -1,4 +1,4 @@
-# 2026-01-05 11:56:51 by RouterOS 7.17
+# 2026-01-05 12:34:45 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -44,3 +44,12 @@ add address=157.240.0.0/16 disabled=no dynamic=no list=my-bypass
 add address=31.13.0.0/16 disabled=no dynamic=no list=my-bypass
 add address=179.60.192.0/22 disabled=no dynamic=no list=my-bypass
 add address=185.60.216.0/22 disabled=no dynamic=no list=my-bypass
+add address=aspmx.l.google.com disabled=no dynamic=no list=my-bypass
+add address=alt1.aspmx.l.google.com disabled=no dynamic=no list=my-bypass
+add address=alt2.aspmx.l.google.com disabled=no dynamic=no list=my-bypass
+add address=aspmx2.googlemail.com disabled=no dynamic=no list=my-bypass
+add address=aspmx3.googlemail.com disabled=no dynamic=no list=my-bypass
+add address=www.quora.com disabled=no dynamic=no list=my-bypass
+add address=claude.ai disabled=no dynamic=no list=my-bypass
+add address=anthropic.com disabled=no dynamic=no list=my-bypass
+add address=160.79.104.0/21 disabled=no dynamic=no list=my-bypass
