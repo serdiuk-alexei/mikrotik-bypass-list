@@ -1,4 +1,4 @@
-# 2026-01-05 14:23:35 by RouterOS 7.17
+# 2026-01-05 16:27:30 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -53,3 +53,50 @@ add address=www.quora.com disabled=no dynamic=no list=my-bypass
 add address=claude.ai disabled=no dynamic=no list=my-bypass
 add address=anthropic.com disabled=no dynamic=no list=my-bypass
 add address=160.79.104.0/21 disabled=no dynamic=no list=my-bypass
+add address=66.22.192.0/18 disabled=no dynamic=no list=my-bypass
+add address=195.62.89.0/24 disabled=no dynamic=no list=my-bypass
+add address=12.129.184.160/29 disabled=no dynamic=no list=my-bypass
+add address=162.158.0.0/15 disabled=no dynamic=no list=my-bypass
+add address=discord.com disabled=no dynamic=no list=my-bypass
+add address=discordapp.com disabled=no dynamic=no list=my-bypass
+add address=discord.gg disabled=no dynamic=no list=my-bypass
+add address=discordapp.net disabled=no dynamic=no list=my-bypass
+add address=discord.media disabled=no dynamic=no list=my-bypass
+add address=discordstatus.com disabled=no dynamic=no list=my-bypass
+add address=dis.gd disabled=no dynamic=no list=my-bypass
+add address=cdn.discordapp.com disabled=no dynamic=no list=my-bypass
+add address=media.discordapp.net disabled=no dynamic=no list=my-bypass
+add address=images-ext-1.discordapp.net disabled=no dynamic=no list=my-bypass
+add address=images-ext-2.discordapp.net disabled=no dynamic=no list=my-bypass
+add address=discord-attachments-uploads-prd.storage.googleapis.com disabled=\
+    no dynamic=no list=my-bypass
+add address=discord.design disabled=no dynamic=no list=my-bypass
+add address=discord.store disabled=no dynamic=no list=my-bypass
+add address=discord.tools disabled=no dynamic=no list=my-bypass
+add address=discord-activities.com disabled=no dynamic=no list=my-bypass
+add address=discordactivities.com disabled=no dynamic=no list=my-bypass
+add address=discordmerch.com disabled=no dynamic=no list=my-bypass
+add address=www.discord.com disabled=no dynamic=no list=my-bypass
+add address=discordcdn.com disabled=no dynamic=no list=my-bypass
+add address=storage.googleapis.com disabled=no dynamic=no list=my-bypass
+add address=stable.dl2.discordapp.net disabled=no dynamic=no list=my-bypass
+add address=dl2.discordapp.net disabled=no dynamic=no list=my-bypass
+add address=youtube.com disabled=no dynamic=no list=my-bypass
+add address=ytimg.com disabled=no dynamic=no list=my-bypass
+add address=ggpht.com disabled=no dynamic=no list=my-bypass
+add address=fbcdn.net disabled=no dynamic=no list=my-bypass
+add address=cdninstagram.com disabled=no dynamic=no list=my-bypass
+add address=twimg.com disabled=no dynamic=no list=my-bypass
+add address=t.co disabled=no dynamic=no list=my-bypass
+add address=viber.com disabled=no dynamic=no list=my-bypass
+add address=signal.org disabled=no dynamic=no list=my-bypass
+add address=162.159.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=104.16.0.0/12 disabled=no dynamic=no list=my-bypass
+add address=172.64.0.0/13 disabled=no dynamic=no list=my-bypass
+add address=linkedin.com disabled=no dynamic=no list=my-bypass
+add address=licdn.com disabled=no dynamic=no list=my-bypass
+add address=scdn.co disabled=no dynamic=no list=my-bypass
+add address=spotifycdn.com disabled=no dynamic=no list=my-bypass
+add address=twitch.tv disabled=no dynamic=no list=my-bypass
+add address=ttvnw.net disabled=no dynamic=no list=my-bypass
+add address=jtvnw.net disabled=no dynamic=no list=my-bypass
