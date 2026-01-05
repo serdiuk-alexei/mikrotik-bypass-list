@@ -1,4 +1,4 @@
-# 2026-01-05 16:27:30 by RouterOS 7.17
+# 2026-01-05 19:59:42 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -100,3 +100,33 @@ add address=spotifycdn.com disabled=no dynamic=no list=my-bypass
 add address=twitch.tv disabled=no dynamic=no list=my-bypass
 add address=ttvnw.net disabled=no dynamic=no list=my-bypass
 add address=jtvnw.net disabled=no dynamic=no list=my-bypass
+add address=www.youtube.com disabled=no dynamic=no list=my-bypass
+add address=whatsapp.com disabled=no dynamic=no list=my-bypass
+add address=www.whatsapp.com disabled=no dynamic=no list=my-bypass
+add address=web.whatsapp.com disabled=no dynamic=no list=my-bypass
+add address=wa.me disabled=no dynamic=no list=my-bypass
+add address=whatsapp.net disabled=no dynamic=no list=my-bypass
+add address=g.whatsapp.net disabled=no dynamic=no list=my-bypass
+add address=static.whatsapp.net disabled=no dynamic=no list=my-bypass
+add address=mmg.whatsapp.net disabled=no dynamic=no list=my-bypass
+add address=graph.whatsapp.com disabled=no dynamic=no list=my-bypass
+add address=mmx-ds.cdn.whatsapp.net disabled=no dynamic=no list=my-bypass
+add address=scontent.whatsapp.net disabled=no dynamic=no list=my-bypass
+add address=dyn.web.whatsapp.com disabled=no dynamic=no list=my-bypass
+add address=pps.whatsapp.net disabled=no dynamic=no list=my-bypass
+add address=mmg-fna.whatsapp.net disabled=no dynamic=no list=my-bypass
+add address=fna.whatsapp.net disabled=no dynamic=no list=my-bypass
+add address=mms.whatsapp.net disabled=no dynamic=no list=my-bypass
+add address=crashlogs.whatsapp.net disabled=no dynamic=no list=my-bypass
+add address=snr.whatsapp.net disabled=no dynamic=no list=my-bypass
+add address=cdn.whatsapp.net disabled=no dynamic=no list=my-bypass
+add address=chat.cdn.whatsapp.net disabled=no dynamic=no list=my-bypass
+add address=api.twitter.com disabled=no dynamic=no list=my-bypass
+add address=dynamic.x.com.cdn.cloudflare.net disabled=no dynamic=no list=\
+    my-bypass
+add address=srhpyqt94yxb.stspg-customer.com disabled=no dynamic=no list=\
+    my-bypass
+add address=twimg.twitter.map.fastly.net disabled=no dynamic=no list=\
+    my-bypass
+add address=dualstack.video.twitter.map.fastly.net disabled=no dynamic=no \
+    list=my-bypass
