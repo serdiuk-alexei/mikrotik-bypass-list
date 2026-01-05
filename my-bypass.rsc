@@ -1,4 +1,4 @@
-# 2026-01-04 19:15:57 by RouterOS 7.17
+# 2026-01-05 11:56:51 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -8,3 +8,39 @@ add address=twitter.com disabled=no dynamic=no list=my-bypass
 add address=x.com disabled=no dynamic=no list=my-bypass
 add address=facebook.com disabled=no dynamic=no list=my-bypass
 add address=instagram.com disabled=no dynamic=no list=my-bypass
+add address=spotify.com disabled=no dynamic=no list=my-bypass
+add address=mikrotik.com disabled=no dynamic=no list=my-bypass
+add address=chatgpt.com disabled=no dynamic=no list=my-bypass
+add address=openai.com disabled=no dynamic=no list=my-bypass
+add address=api.openai.com disabled=no dynamic=no list=my-bypass
+add address=auth.openai.com disabled=no dynamic=no list=my-bypass
+add address=platform.openai.com disabled=no dynamic=no list=my-bypass
+add address=oaiusercontent.com disabled=no dynamic=no list=my-bypass
+add address=auth0.openai.com disabled=no dynamic=no list=my-bypass
+add address=setup.auth.openai.com disabled=no dynamic=no list=my-bypass
+add address=chat.openai.com disabled=no dynamic=no list=my-bypass
+add address=tcr9i.chat.openai.com disabled=no dynamic=no list=my-bypass
+add address=desktop.chat.openai.com disabled=no dynamic=no list=my-bypass
+add address=ios.chat.openai.com disabled=no dynamic=no list=my-bypass
+add address=android.chat.openai.com disabled=no dynamic=no list=my-bypass
+add address=searchgpt.com disabled=no dynamic=no list=my-bypass
+add address=oaistatic.com disabled=no dynamic=no list=my-bypass
+add address=quora.com disabled=no dynamic=no list=my-bypass
+add address=youtubei.googleapis.com disabled=no dynamic=no list=my-bypass
+add address=youtube.googleapis.com disabled=no dynamic=no list=my-bypass
+add address=googlevideo.com disabled=no dynamic=no list=my-bypass
+add address=i.ytimg.com disabled=no dynamic=no list=my-bypass
+add address=accounts.google.com disabled=no dynamic=no list=my-bypass
+add address=142.250.0.0/15 disabled=no dynamic=no list=my-bypass
+add address=172.217.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=216.58.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=74.125.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=209.85.128.0/17 disabled=no dynamic=no list=my-bypass
+add address=64.233.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=108.170.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=72.14.192.0/18 disabled=no dynamic=no list=my-bypass
+add address=173.194.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=157.240.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=31.13.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=179.60.192.0/22 disabled=no dynamic=no list=my-bypass
+add address=185.60.216.0/22 disabled=no dynamic=no list=my-bypass
