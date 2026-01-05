@@ -1,4 +1,4 @@
-# 2026-01-05 12:34:45 by RouterOS 7.17
+# 2026-01-05 14:23:35 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
