@@ -1,0 +1,15 @@
+# 2026-01-06 21:11:29 by RouterOS 7.17
+# software id = K4EM-YM28
+#
+ # NAME                                                                                              TYPE             SIZE LAST-MODIFIED       
+ 0 wifi-optimized.backup                                                                             backup      1200.0KiB 2026-01-05 12:50:24 
+ 1 config-2026-01-05.rsc                                                                             script       525.2KiB 2026-01-05 12:50:27 
+ 2 pub                                                                                               directory             2025-01-05 11:17:13 
+ 3 bypass.rsc                                                                                        script       838.2KiB 2026-01-06 18:00:17 
+ 4 my-bypass-v6.txt                                                                                  .txt file        1795 2026-01-06 21:11:25 
+ 5 my-bypass.rsc                                                                                     script         8.2KiB 2026-01-05 19:59:42 
+ 6 backup-before-vpn.backup                                                                          backup       111.3KiB 2026-01-04 10:37:37 
+ 7 config-before-vpn.rsc                                                                             script        17.9KiB 2026-01-04 10:37:54 
+ 8 Home_Mikrotik.backup                                                                              backup      1194.3KiB 2026-01-05 11:33:43 
+ 9 console-dump.txt                                                                                  .txt file   2560.4KiB 2026-01-05 19:54:12 
+10 auto-before-reset.backup                                                                          backup        22.4KiB 1970-01-01 03:00:09 
