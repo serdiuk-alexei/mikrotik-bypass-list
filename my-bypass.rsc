@@ -1,4 +1,4 @@
-# 2026-01-06 21:11:49 by RouterOS 7.17
+# 2026-01-09 13:04:46 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -130,3 +130,59 @@ add address=twimg.twitter.map.fastly.net disabled=no dynamic=no list=\
     my-bypass
 add address=dualstack.video.twitter.map.fastly.net disabled=no dynamic=no \
     list=my-bypass
+add address=gemini.google.com disabled=no dynamic=no list=my-bypass
+add address=gemini.google disabled=no dynamic=no list=my-bypass
+add address=ai.com disabled=no dynamic=no list=my-bypass
+add address=generativelanguage.googleapis.com disabled=no dynamic=no list=\
+    my-bypass
+add address=clients1.google.com disabled=no dynamic=no list=my-bypass
+add address=clients.l.google.com disabled=no dynamic=no list=my-bypass
+add address=analytics.google.com disabled=no dynamic=no list=my-bypass
+add address=analytics-alv.google.com disabled=no dynamic=no list=my-bypass
+add address=assistantfrontend-pa.googleapis.com disabled=no dynamic=no list=\
+    my-bypass
+add address=assistant-s3-pa.googleapis.com disabled=no dynamic=no list=\
+    my-bypass
+add address=notifications-pa.googleapis.com disabled=no dynamic=no list=\
+    my-bypass
+add address=searchnotifications-pa.googleapis.com disabled=no dynamic=no \
+    list=my-bypass
+add address=update.googleapis.com disabled=no dynamic=no list=my-bypass
+add address=taskassist-pa.googleapis.com disabled=no dynamic=no list=\
+    my-bypass
+add address=lamssettings-pa.googleapis.com disabled=no dynamic=no list=\
+    my-bypass
+add address=www.gstatic.com disabled=no dynamic=no list=my-bypass
+add address=signaler-pa.clients6.google.com disabled=no dynamic=no list=\
+    my-bypass
+add address=fonts.gstatic.com disabled=no dynamic=no list=my-bypass
+add address=lh3.googleusercontent.com disabled=no dynamic=no list=my-bypass
+add address=apis.google.com disabled=no dynamic=no list=my-bypass
+add address=www.googletagmanager.com disabled=no dynamic=no list=my-bypass
+add address=play.google.com disabled=no dynamic=no list=my-bypass
+add address=www.gemini.google.com disabled=no dynamic=no list=my-bypass
+add address=www.google.com disabled=no dynamic=no list=my-bypass
+add address=aistudio.google.com disabled=no dynamic=no list=my-bypass
+add address=myaccount.google.com disabled=no dynamic=no list=my-bypass
+add address=lh3.google.com disabled=no dynamic=no list=my-bypass
+add address=gstatic.com disabled=no dynamic=no list=my-bypass
+add address=googleusercontent.com disabled=no dynamic=no list=my-bypass
+add address=jnn-pa.googleapis.com disabled=no dynamic=no list=my-bypass
+add address=googleapis.com disabled=no dynamic=no list=my-bypass
+add address=google.com disabled=no dynamic=no list=my-bypass
+add address=waa-pa.clients6.google.com disabled=no dynamic=no list=my-bypass
+add address=notebooklm.google.com disabled=no dynamic=no list=my-bypass
+add address=ogads-pa.clients6.google.com disabled=no dynamic=no list=\
+    my-bypass
+add address=facetime.apple.com disabled=no dynamic=no list=my-bypass
+add address=init-p01md.apple.com disabled=no dynamic=no list=my-bypass
+add address=push-apple.com disabled=no dynamic=no list=my-bypass
+add address=apple-dns.net disabled=no dynamic=no list=my-bypass
+add address=ls-apple.com disabled=no dynamic=no list=my-bypass
+add address=icloud.com disabled=no dynamic=no list=my-bypass
+add address=ess.apple.com disabled=no dynamic=no list=my-bypass
+add address=gdmf.apple.com disabled=no dynamic=no list=my-bypass
+add address=mesu.apple.com disabled=no dynamic=no list=my-bypass
+add address=aaplimg.com disabled=no dynamic=no list=my-bypass
+add address=akadns.net disabled=no dynamic=no list=my-bypass
+add address=edgesuite.net disabled=no dynamic=no list=my-bypass
