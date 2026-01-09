@@ -1,4 +1,4 @@
-# 2026-01-09 13:04:46 by RouterOS 7.17
+# 2026-01-09 22:20:58 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -30,25 +30,10 @@ add address=youtubei.googleapis.com disabled=no dynamic=no list=my-bypass
 add address=youtube.googleapis.com disabled=no dynamic=no list=my-bypass
 add address=googlevideo.com disabled=no dynamic=no list=my-bypass
 add address=i.ytimg.com disabled=no dynamic=no list=my-bypass
-add address=accounts.google.com disabled=no dynamic=no list=my-bypass
-add address=142.250.0.0/15 disabled=no dynamic=no list=my-bypass
-add address=172.217.0.0/16 disabled=no dynamic=no list=my-bypass
-add address=216.58.0.0/16 disabled=no dynamic=no list=my-bypass
-add address=74.125.0.0/16 disabled=no dynamic=no list=my-bypass
-add address=209.85.128.0/17 disabled=no dynamic=no list=my-bypass
-add address=64.233.0.0/16 disabled=no dynamic=no list=my-bypass
-add address=108.170.0.0/16 disabled=no dynamic=no list=my-bypass
-add address=72.14.192.0/18 disabled=no dynamic=no list=my-bypass
-add address=173.194.0.0/16 disabled=no dynamic=no list=my-bypass
 add address=157.240.0.0/16 disabled=no dynamic=no list=my-bypass
 add address=31.13.0.0/16 disabled=no dynamic=no list=my-bypass
 add address=179.60.192.0/22 disabled=no dynamic=no list=my-bypass
 add address=185.60.216.0/22 disabled=no dynamic=no list=my-bypass
-add address=aspmx.l.google.com disabled=no dynamic=no list=my-bypass
-add address=alt1.aspmx.l.google.com disabled=no dynamic=no list=my-bypass
-add address=alt2.aspmx.l.google.com disabled=no dynamic=no list=my-bypass
-add address=aspmx2.googlemail.com disabled=no dynamic=no list=my-bypass
-add address=aspmx3.googlemail.com disabled=no dynamic=no list=my-bypass
 add address=www.quora.com disabled=no dynamic=no list=my-bypass
 add address=claude.ai disabled=no dynamic=no list=my-bypass
 add address=anthropic.com disabled=no dynamic=no list=my-bypass
@@ -130,50 +115,13 @@ add address=twimg.twitter.map.fastly.net disabled=no dynamic=no list=\
     my-bypass
 add address=dualstack.video.twitter.map.fastly.net disabled=no dynamic=no \
     list=my-bypass
-add address=gemini.google.com disabled=no dynamic=no list=my-bypass
-add address=gemini.google disabled=no dynamic=no list=my-bypass
 add address=ai.com disabled=no dynamic=no list=my-bypass
-add address=generativelanguage.googleapis.com disabled=no dynamic=no list=\
-    my-bypass
-add address=clients1.google.com disabled=no dynamic=no list=my-bypass
-add address=clients.l.google.com disabled=no dynamic=no list=my-bypass
-add address=analytics.google.com disabled=no dynamic=no list=my-bypass
-add address=analytics-alv.google.com disabled=no dynamic=no list=my-bypass
-add address=assistantfrontend-pa.googleapis.com disabled=no dynamic=no list=\
-    my-bypass
-add address=assistant-s3-pa.googleapis.com disabled=no dynamic=no list=\
-    my-bypass
-add address=notifications-pa.googleapis.com disabled=no dynamic=no list=\
-    my-bypass
-add address=searchnotifications-pa.googleapis.com disabled=no dynamic=no \
-    list=my-bypass
-add address=update.googleapis.com disabled=no dynamic=no list=my-bypass
-add address=taskassist-pa.googleapis.com disabled=no dynamic=no list=\
-    my-bypass
-add address=lamssettings-pa.googleapis.com disabled=no dynamic=no list=\
-    my-bypass
 add address=www.gstatic.com disabled=no dynamic=no list=my-bypass
-add address=signaler-pa.clients6.google.com disabled=no dynamic=no list=\
-    my-bypass
 add address=fonts.gstatic.com disabled=no dynamic=no list=my-bypass
 add address=lh3.googleusercontent.com disabled=no dynamic=no list=my-bypass
-add address=apis.google.com disabled=no dynamic=no list=my-bypass
-add address=www.googletagmanager.com disabled=no dynamic=no list=my-bypass
-add address=play.google.com disabled=no dynamic=no list=my-bypass
-add address=www.gemini.google.com disabled=no dynamic=no list=my-bypass
-add address=www.google.com disabled=no dynamic=no list=my-bypass
-add address=aistudio.google.com disabled=no dynamic=no list=my-bypass
-add address=myaccount.google.com disabled=no dynamic=no list=my-bypass
 add address=lh3.google.com disabled=no dynamic=no list=my-bypass
 add address=gstatic.com disabled=no dynamic=no list=my-bypass
-add address=googleusercontent.com disabled=no dynamic=no list=my-bypass
 add address=jnn-pa.googleapis.com disabled=no dynamic=no list=my-bypass
-add address=googleapis.com disabled=no dynamic=no list=my-bypass
-add address=google.com disabled=no dynamic=no list=my-bypass
-add address=waa-pa.clients6.google.com disabled=no dynamic=no list=my-bypass
-add address=notebooklm.google.com disabled=no dynamic=no list=my-bypass
-add address=ogads-pa.clients6.google.com disabled=no dynamic=no list=\
-    my-bypass
 add address=facetime.apple.com disabled=no dynamic=no list=my-bypass
 add address=init-p01md.apple.com disabled=no dynamic=no list=my-bypass
 add address=push-apple.com disabled=no dynamic=no list=my-bypass
@@ -186,3 +134,11 @@ add address=mesu.apple.com disabled=no dynamic=no list=my-bypass
 add address=aaplimg.com disabled=no dynamic=no list=my-bypass
 add address=akadns.net disabled=no dynamic=no list=my-bypass
 add address=edgesuite.net disabled=no dynamic=no list=my-bypass
+add address=142.250.0.0/15 disabled=no dynamic=no list=my-bypass
+add address=173.194.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=172.217.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=216.58.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=74.125.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=209.85.128.0/17 disabled=no dynamic=no list=my-bypass
+add address=64.233.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=ifconfig.me disabled=no dynamic=no list=my-bypass
