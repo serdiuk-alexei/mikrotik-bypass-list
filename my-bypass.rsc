@@ -1,4 +1,4 @@
-# 2026-01-11 20:03:19 by RouterOS 7.17
+# 2026-01-11 22:41:56 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -159,3 +159,11 @@ add address=dl-media.viber.com disabled=no dynamic=no list=my-bypass
 add address=media-direct.cdn.viber.com disabled=no dynamic=no list=my-bypass
 add address=vbrcs.viber.com disabled=no dynamic=no list=my-bypass
 add address=aloha.viber.com disabled=no dynamic=no list=my-bypass
+add address=cdn.openai.com disabled=no dynamic=no list=my-bypass
+add address=oauth.openai.com disabled=no dynamic=no list=my-bypass
+add address=cloudflare.com disabled=no dynamic=no list=my-bypass
+add address=www.instagram.com disabled=no dynamic=no list=my-bypass
+add address=api.instagram.com disabled=no dynamic=no list=my-bypass
+add address=connect.facebook.net disabled=no dynamic=no list=my-bypass
+add address=graph.facebook.com disabled=no dynamic=no list=my-bypass
+add address=push.facebook.com disabled=no dynamic=no list=my-bypass

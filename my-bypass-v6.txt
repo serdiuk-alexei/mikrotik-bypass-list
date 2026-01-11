@@ -150,3 +150,11 @@ add address=dl-media.viber.com list=my-bypass
 add address=media-direct.cdn.viber.com list=my-bypass
 add address=vbrcs.viber.com list=my-bypass
 add address=aloha.viber.com list=my-bypass
+add address=cdn.openai.com list=my-bypass
+add address=oauth.openai.com list=my-bypass
+add address=cloudflare.com list=my-bypass
+add address=www.instagram.com list=my-bypass
+add address=api.instagram.com list=my-bypass
+add address=connect.facebook.net list=my-bypass
+add address=graph.facebook.com list=my-bypass
+add address=push.facebook.com list=my-bypass
