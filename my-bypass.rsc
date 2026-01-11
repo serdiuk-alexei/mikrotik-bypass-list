@@ -1,4 +1,4 @@
-# 2026-01-09 22:20:58 by RouterOS 7.17
+# 2026-01-11 20:03:19 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -142,3 +142,20 @@ add address=74.125.0.0/16 disabled=no dynamic=no list=my-bypass
 add address=209.85.128.0/17 disabled=no dynamic=no list=my-bypass
 add address=64.233.0.0/16 disabled=no dynamic=no list=my-bypass
 add address=ifconfig.me disabled=no dynamic=no list=my-bypass
+add address=www.viber.com disabled=no dynamic=no list=my-bypass
+add address=account.viber.com disabled=no dynamic=no list=my-bypass
+add address=registration.viber.com disabled=no dynamic=no list=my-bypass
+add address=api.viber.com disabled=no dynamic=no list=my-bypass
+add address=media.viber.com disabled=no dynamic=no list=my-bypass
+add address=call.viber.com disabled=no dynamic=no list=my-bypass
+add address=voip.viber.com disabled=no dynamic=no list=my-bypass
+add address=content.viber.com disabled=no dynamic=no list=my-bypass
+add address=cdn.viber.com disabled=no dynamic=no list=my-bypass
+add address=images.viber.com disabled=no dynamic=no list=my-bypass
+add address=cloudfront.net disabled=no dynamic=no list=my-bypass
+add address=amazonaws.com disabled=no dynamic=no list=my-bypass
+add address=share.viber.com disabled=no dynamic=no list=my-bypass
+add address=dl-media.viber.com disabled=no dynamic=no list=my-bypass
+add address=media-direct.cdn.viber.com disabled=no dynamic=no list=my-bypass
+add address=vbrcs.viber.com disabled=no dynamic=no list=my-bypass
+add address=aloha.viber.com disabled=no dynamic=no list=my-bypass
