@@ -1,4 +1,4 @@
-# 2026-01-11 22:41:56 by RouterOS 7.17
+# 2026-01-13 00:05:15 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -167,3 +167,9 @@ add address=api.instagram.com disabled=no dynamic=no list=my-bypass
 add address=connect.facebook.net disabled=no dynamic=no list=my-bypass
 add address=graph.facebook.com disabled=no dynamic=no list=my-bypass
 add address=push.facebook.com disabled=no dynamic=no list=my-bypass
+add address=57.144.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=i.instagram.com disabled=no dynamic=no list=my-bypass
+add address=graph.instagram.com disabled=no dynamic=no list=my-bypass
+add address=scontent.cdninstagram.com disabled=no dynamic=no list=my-bypass
+add address=edge-chat.instagram.com disabled=no dynamic=no list=my-bypass
+#error exporting "/ip/firewall/address-list"

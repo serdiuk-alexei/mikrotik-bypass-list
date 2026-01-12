@@ -158,3 +158,10 @@ add address=api.instagram.com list=my-bypass
 add address=connect.facebook.net list=my-bypass
 add address=graph.facebook.com list=my-bypass
 add address=push.facebook.com list=my-bypass
+add address=57.144.0.0/16 list=my-bypass
+add address=i.instagram.com list=my-bypass
+add address=graph.instagram.com list=my-bypass
+add address=scontent.cdninstagram.com list=my-bypass
+add address=edge-chat.instagram.com list=my-bypass
+add address=108.170.0.0/16 list=my-bypass
+add address=72.14.192.0/18 list=my-bypass
