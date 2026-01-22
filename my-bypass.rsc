@@ -1,4 +1,4 @@
-# 2026-01-13 00:05:15 by RouterOS 7.17
+# 2026-01-22 19:53:16 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -172,4 +172,29 @@ add address=i.instagram.com disabled=no dynamic=no list=my-bypass
 add address=graph.instagram.com disabled=no dynamic=no list=my-bypass
 add address=scontent.cdninstagram.com disabled=no dynamic=no list=my-bypass
 add address=edge-chat.instagram.com disabled=no dynamic=no list=my-bypass
-#error exporting "/ip/firewall/address-list"
+add address=108.170.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=72.14.192.0/18 disabled=no dynamic=no list=my-bypass
+add address=messenger.com disabled=no dynamic=no list=my-bypass
+add address=www.messenger.com disabled=no dynamic=no list=my-bypass
+add address=m.facebook.com disabled=no dynamic=no list=my-bypass
+add address=edge-chat.messenger.com disabled=no dynamic=no list=my-bypass
+add address=mqtt.facebook.com disabled=no dynamic=no list=my-bypass
+add address=star.c10r.facebook.com disabled=no dynamic=no list=my-bypass
+add address=b-graph.facebook.com disabled=no dynamic=no list=my-bypass
+add address=api.facebook.com disabled=no dynamic=no list=my-bypass
+add address=tiktok.com disabled=no dynamic=no list=my-bypass
+add address=www.tiktok.com disabled=no dynamic=no list=my-bypass
+add address=tiktokv.com disabled=no dynamic=no list=my-bypass
+add address=tiktokcdn.com disabled=no dynamic=no list=my-bypass
+add address=tiktokcdn-us.com disabled=no dynamic=no list=my-bypass
+add address=musical.ly disabled=no dynamic=no list=my-bypass
+add address=byteoversea.com disabled=no dynamic=no list=my-bypass
+add address=ibytedtos.com disabled=no dynamic=no list=my-bypass
+add address=ibyteimg.com disabled=no dynamic=no list=my-bypass
+add address=isnssdk.com disabled=no dynamic=no list=my-bypass
+add address=p16-tiktokcdn-com.akamaized.net disabled=no dynamic=no list=\
+    my-bypass
+add address=p16-sign-sg.tiktokcdn.com disabled=no dynamic=no list=my-bypass
+add address=p77-sign-sg.tiktokcdn.com disabled=no dynamic=no list=my-bypass
+add address=v16-webapp.tiktok.com disabled=no dynamic=no list=my-bypass
+add address=v19-webapp.tiktok.com disabled=no dynamic=no list=my-bypass
