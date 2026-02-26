@@ -1,4 +1,4 @@
-# 2026-01-22 19:53:16 by RouterOS 7.17
+# 2026-02-26 22:22:45 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -198,3 +198,48 @@ add address=p16-sign-sg.tiktokcdn.com disabled=no dynamic=no list=my-bypass
 add address=p77-sign-sg.tiktokcdn.com disabled=no dynamic=no list=my-bypass
 add address=v16-webapp.tiktok.com disabled=no dynamic=no list=my-bypass
 add address=v19-webapp.tiktok.com disabled=no dynamic=no list=my-bypass
+add address=api.tiktokv.com disabled=no dynamic=no list=my-bypass
+add address=api2.musical.ly disabled=no dynamic=no list=my-bypass
+add address=api-h2.tiktokv.com disabled=no dynamic=no list=my-bypass
+add address=api16-normal-c-useast1a.tiktokv.com disabled=no dynamic=no list=\
+    my-bypass
+add address=api22-normal-c-useast2a.tiktokv.com disabled=no dynamic=no list=\
+    my-bypass
+add address=log.tiktokv.com disabled=no dynamic=no list=my-bypass
+add address=log2.musical.ly disabled=no dynamic=no list=my-bypass
+add address=mon.tiktokv.com disabled=no dynamic=no list=my-bypass
+add address=webcast.tiktok.com disabled=no dynamic=no list=my-bypass
+add address=pull-l3.tiktokcdn.com disabled=no dynamic=no list=my-bypass
+add address=sf16-sg.tiktokcdn.com disabled=no dynamic=no list=my-bypass
+add address=sf1-ttcdn-tos.pstatp.com disabled=no dynamic=no list=my-bypass
+add address=v34-webapp.tiktok.com disabled=no dynamic=no list=my-bypass
+add address=147.234.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=152.199.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=bbc.co.uk disabled=no dynamic=no list=my-bypass
+add address=www.bbc.co.uk disabled=no dynamic=no list=my-bypass
+add address=bbc.com disabled=no dynamic=no list=my-bypass
+add address=www.bbc.com disabled=no dynamic=no list=my-bypass
+add address=bbci.co.uk disabled=no dynamic=no list=my-bypass
+add address=sounds.files.bbci.co.uk disabled=no dynamic=no list=my-bypass
+add address=open.live.bbc.co.uk disabled=no dynamic=no list=my-bypass
+add address=podcasts.files.bbci.co.uk disabled=no dynamic=no list=my-bypass
+add address=ws.bbc.co.uk disabled=no dynamic=no list=my-bypass
+add address=pol.bbci.co.uk disabled=no dynamic=no list=my-bypass
+add address=static.files.bbci.co.uk disabled=no dynamic=no list=my-bypass
+add address=hostvds.com disabled=no dynamic=no list=my-bypass
+add address=www.hostvds.com disabled=no dynamic=no list=my-bypass
+add address=telegram.org disabled=no dynamic=no list=my-bypass
+add address=t.me disabled=no dynamic=no list=my-bypass
+add address=core.telegram.org disabled=no dynamic=no list=my-bypass
+add address=web.telegram.org disabled=no dynamic=no list=my-bypass
+add address=desktop.telegram.org disabled=no dynamic=no list=my-bypass
+add address=api.telegram.org disabled=no dynamic=no list=my-bypass
+add address=telegram.me disabled=no dynamic=no list=my-bypass
+add address=91.108.4.0/22 disabled=no dynamic=no list=my-bypass
+add address=91.108.8.0/22 disabled=no dynamic=no list=my-bypass
+add address=91.108.12.0/22 disabled=no dynamic=no list=my-bypass
+add address=91.108.16.0/22 disabled=no dynamic=no list=my-bypass
+add address=91.108.20.0/22 disabled=no dynamic=no list=my-bypass
+add address=91.108.56.0/22 disabled=no dynamic=no list=my-bypass
+add address=149.154.160.0/20 disabled=no dynamic=no list=my-bypass
+add address=185.76.151.0/24 disabled=no dynamic=no list=my-bypass
