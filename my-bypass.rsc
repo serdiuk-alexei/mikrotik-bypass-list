@@ -1,4 +1,4 @@
-# 2026-02-26 22:22:45 by RouterOS 7.17
+# 2026-03-03 20:56:07 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -243,3 +243,4 @@ add address=91.108.20.0/22 disabled=no dynamic=no list=my-bypass
 add address=91.108.56.0/22 disabled=no dynamic=no list=my-bypass
 add address=149.154.160.0/20 disabled=no dynamic=no list=my-bypass
 add address=185.76.151.0/24 disabled=no dynamic=no list=my-bypass
+#error exporting "/ip/firewall/address-list"
