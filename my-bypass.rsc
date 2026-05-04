@@ -1,4 +1,4 @@
-# 2026-03-09 13:31:16 by RouterOS 7.17
+# 2026-05-04 21:17:57 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -243,3 +243,66 @@ add address=91.108.20.0/22 disabled=no dynamic=no list=my-bypass
 add address=91.108.56.0/22 disabled=no dynamic=no list=my-bypass
 add address=149.154.160.0/20 disabled=no dynamic=no list=my-bypass
 add address=185.76.151.0/24 disabled=no dynamic=no list=my-bypass
+add address=cdn.telegram.org disabled=no dynamic=no list=my-bypass
+add address=95.161.64.0/20 disabled=no dynamic=no list=my-bypass
+add address=cdn1.telegram.org disabled=no dynamic=no list=my-bypass
+add address=cdn2.telegram.org disabled=no dynamic=no list=my-bypass
+add address=cdn4.telegram.org disabled=no dynamic=no list=my-bypass
+add address=cdn5.telegram.org disabled=no dynamic=no list=my-bypass
+add address=venus.telegram.org disabled=no dynamic=no list=my-bypass
+add address=flora.telegram.org disabled=no dynamic=no list=my-bypass
+add address=vesta.telegram.org disabled=no dynamic=no list=my-bypass
+add address=pluto.telegram.org disabled=no dynamic=no list=my-bypass
+add address=91.105.192.0/23 disabled=no dynamic=no list=my-bypass
+add address=91.108.0.0/16 disabled=no dynamic=no list=my-bypass
+add address=my.hostvds.com disabled=no dynamic=no list=my-bypass
+add address=panel.hostvds.com disabled=no dynamic=no list=my-bypass
+add address=x-minus.pro disabled=no dynamic=no list=my-bypass
+add address=17.0.0.0/8 disabled=no dynamic=no list=my-bypass
+add address=bitcointalk.org disabled=no dynamic=no list=my-bypass
+add address=www.bitcointalk.org disabled=no dynamic=no list=my-bypass
+add address=lilypad.tech disabled=no dynamic=no list=my-bypass
+add address=crynux.ai disabled=no dynamic=no list=my-bypass
+add address=nodexo.ai disabled=no dynamic=no list=my-bypass
+add address=mmx.network disabled=no dynamic=no list=my-bypass
+add address=zorp.io disabled=no dynamic=no list=my-bypass
+add address=sonaric.xyz disabled=no dynamic=no list=my-bypass
+add address=bacalhau.org disabled=no dynamic=no list=my-bypass
+add address=ogva.gitbook.io disabled=no dynamic=no list=my-bypass
+add address=xian.org disabled=no dynamic=no list=my-bypass
+add address=minepi.com disabled=no dynamic=no list=my-bypass
+add address=cryptix-network.org disabled=no dynamic=no list=my-bypass
+add address=xelis.io disabled=no dynamic=no list=my-bypass
+add address=pipe.network disabled=no dynamic=no list=my-bypass
+add address=drosera.io disabled=no dynamic=no list=my-bypass
+add address=k0bradag.com disabled=no dynamic=no list=my-bypass
+add address=raptoreum.com disabled=no dynamic=no list=my-bypass
+add address=dero.io disabled=no dynamic=no list=my-bypass
+add address=cpucoin.io disabled=no dynamic=no list=my-bypass
+add address=nunet.io disabled=no dynamic=no list=my-bypass
+add address=golem.network disabled=no dynamic=no list=my-bypass
+add address=gridcoin.us disabled=no dynamic=no list=my-bypass
+add address=acurast.com disabled=no dynamic=no list=my-bypass
+add address=cudos.org disabled=no dynamic=no list=my-bypass
+add address=iex.ec disabled=no dynamic=no list=my-bypass
+add address=gensyn.ai disabled=no dynamic=no list=my-bypass
+add address=pocket.network disabled=no dynamic=no list=my-bypass
+add address=exordelabs.com disabled=no dynamic=no list=my-bypass
+add address=daeta.xyz disabled=no dynamic=no list=my-bypass
+add address=17.57.144.0/22 comment=FaceTime disabled=no dynamic=no list=\
+    my-bypass
+add address=17.57.148.0/22 comment=FaceTime disabled=no dynamic=no list=\
+    my-bypass
+add address=17.110.232.0/21 comment=FaceTime disabled=no dynamic=no list=\
+    my-bypass
+add address=17.129.28.0/22 comment=FaceTime disabled=no dynamic=no list=\
+    my-bypass
+add address=17.188.128.0/18 comment=FaceTime disabled=no dynamic=no list=\
+    my-bypass
+add address=17.188.192.0/18 comment=FaceTime disabled=no dynamic=no list=\
+    my-bypass
+add address=m.youtube.com disabled=no dynamic=no list=my-bypass
+add address=youtu.be disabled=no dynamic=no list=my-bypass
+add address=yt3.ggpht.com disabled=no dynamic=no list=my-bypass
+add address=216.58.192.0/19 disabled=no dynamic=no list=my-bypass
+add address=64.233.160.0/19 disabled=no dynamic=no list=my-bypass
