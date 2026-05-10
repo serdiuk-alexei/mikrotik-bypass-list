@@ -288,3 +288,8 @@ add address=youtu.be list=my-bypass
 add address=yt3.ggpht.com list=my-bypass
 add address=216.58.192.0/19 list=my-bypass
 add address=64.233.160.0/19 list=my-bypass
+add address=tig.foundation list=my-bypass
+add address=grok.com list=my-bypass
+add address=x.ai list=my-bypass
+add address=api.x.ai list=my-bypass
+add address=accounts.x.ai list=my-bypass
