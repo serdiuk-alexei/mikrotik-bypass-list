@@ -311,4 +311,6 @@ add address=grok.com disabled=no dynamic=no list=my-bypass
 add address=x.ai disabled=no dynamic=no list=my-bypass
 add address=api.x.ai disabled=no dynamic=no list=my-bypass
 add address=accounts.x.ai disabled=no dynamic=no list=my-bypass
+add address=ipify.org disabled=no dynamic=no list=my-bypass
+add address=ifconfig.co disabled=no dynamic=no list=my-bypass
 #error exporting "/ip/firewall/address-list"
