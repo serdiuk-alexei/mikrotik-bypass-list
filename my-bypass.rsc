@@ -1,4 +1,4 @@
-# 2026-05-10 20:13:59 by RouterOS 7.17
+# 2026-05-18 17:39:57 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -307,11 +307,11 @@ add address=yt3.ggpht.com disabled=no dynamic=no list=my-bypass
 add address=216.58.192.0/19 disabled=no dynamic=no list=my-bypass
 add address=64.233.160.0/19 disabled=no dynamic=no list=my-bypass
 add address=tig.foundation disabled=no dynamic=no list=my-bypass
-add address=play.tig.foundation disabled=no dynamic=no list=my-bypass
 add address=grok.com disabled=no dynamic=no list=my-bypass
 add address=x.ai disabled=no dynamic=no list=my-bypass
 add address=api.x.ai disabled=no dynamic=no list=my-bypass
 add address=accounts.x.ai disabled=no dynamic=no list=my-bypass
 add address=ipify.org disabled=no dynamic=no list=my-bypass
 add address=ifconfig.co disabled=no dynamic=no list=my-bypass
-#error exporting "/ip/firewall/address-list"
+add address=play.tig.foundation disabled=no dynamic=no list=my-bypass
+add address=bybit.com disabled=no dynamic=no list=my-bypass
