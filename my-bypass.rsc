@@ -1,4 +1,4 @@
-# 2026-05-18 17:39:57 by RouterOS 7.17
+# 2026-05-31 07:13:56 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -315,3 +315,45 @@ add address=ipify.org disabled=no dynamic=no list=my-bypass
 add address=ifconfig.co disabled=no dynamic=no list=my-bypass
 add address=play.tig.foundation disabled=no dynamic=no list=my-bypass
 add address=bybit.com disabled=no dynamic=no list=my-bypass
+add address=vdsina.com disabled=no dynamic=no list=my-bypass
+add address=sndcdn.com disabled=no dynamic=no list=my-bypass
+add address=soundcloud.com disabled=no dynamic=no list=my-bypass
+add address=feeds.soundcloud.com disabled=no dynamic=no list=my-bypass
+add address=api-v2.soundcloud.com disabled=no dynamic=no list=my-bypass
+add address=cf-media.sndcdn.com disabled=no dynamic=no list=my-bypass
+add address=podcasts.apple.com disabled=no dynamic=no list=my-bypass
+add address=amp-api.podcasts.apple.com disabled=no dynamic=no list=my-bypass
+add address=is1-ssl.mzstatic.com disabled=no dynamic=no list=my-bypass
+add address=is2-ssl.mzstatic.com disabled=no dynamic=no list=my-bypass
+add address=is3-ssl.mzstatic.com disabled=no dynamic=no list=my-bypass
+add address=is4-ssl.mzstatic.com disabled=no dynamic=no list=my-bypass
+add address=is5-ssl.mzstatic.com disabled=no dynamic=no list=my-bypass
+add address=media.sndcdn.com disabled=no dynamic=no list=my-bypass
+add address=cf-hls-media.sndcdn.com disabled=no dynamic=no list=my-bypass
+add address=a-v2.sndcdn.com disabled=no dynamic=no list=my-bypass
+add address=api.soundcloud.com disabled=no dynamic=no list=my-bypass
+add address=www.vdsina.com disabled=no dynamic=no list=my-bypass
+add address=cp.vdsina.com disabled=no dynamic=no list=my-bypass
+add address=files.bbci.co.uk disabled=no dynamic=no list=my-bypass
+add address=emp.bbci.co.uk disabled=no dynamic=no list=my-bypass
+add address=ichef.bbci.co.uk disabled=no dynamic=no list=my-bypass
+add address=vueling.com disabled=no dynamic=no list=my-bypass
+add address=www.vueling.com disabled=no dynamic=no list=my-bypass
+add address=codex.openai.com disabled=no dynamic=no list=my-bypass
+add address=openaiapi.com disabled=no dynamic=no list=my-bypass
+add address=files.oaiusercontent.com disabled=no dynamic=no list=my-bypass
+add address=cdn.oaistatic.com disabled=no dynamic=no list=my-bypass
+add address=oaiusercontent.comm disabled=no dynamic=no list=my-bypass
+add address=8.47.69.0/24 comment="chatgpt.com apex" disabled=no dynamic=no \
+    list=my-bypass
+add address=8.6.112.0/24 comment="chatgpt.com apex" disabled=no dynamic=no \
+    list=my-bypass
+add address=media.whatsapp.com disabled=no dynamic=no list=my-bypass
+add address=dit.whatsapp.net disabled=no dynamic=no list=my-bypass
+add address=www.claude.ai disabled=no dynamic=no list=my-bypass
+add address=claude.com disabled=no dynamic=no list=my-bypass
+add address=www.claude.com disabled=no dynamic=no list=my-bypass
+add address=www.anthropic.com disabled=no dynamic=no list=my-bypass
+add address=api.anthropic.com disabled=no dynamic=no list=my-bypass
+add address=platform.claude.com disabled=no dynamic=no list=my-bypass
+add address=console.anthropic.com disabled=no dynamic=no list=my-bypass
