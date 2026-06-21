@@ -1,4 +1,4 @@
-# 2026-05-31 07:13:56 by RouterOS 7.17
+# 2026-06-21 22:48:39 by RouterOS 7.17
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -357,3 +357,57 @@ add address=www.anthropic.com disabled=no dynamic=no list=my-bypass
 add address=api.anthropic.com disabled=no dynamic=no list=my-bypass
 add address=platform.claude.com disabled=no dynamic=no list=my-bypass
 add address=console.anthropic.com disabled=no dynamic=no list=my-bypass
+add address=accounts.google.com disabled=no dynamic=no list=my-bypass
+add address=challenges.cloudflare.com disabled=no dynamic=no list=my-bypass
+add address=turnstile.cloudflare.com disabled=no dynamic=no list=my-bypass
+add address=gemini.google.com disabled=no dynamic=no list=my-bypass
+add address=www.gemini.google.com disabled=no dynamic=no list=my-bypass
+add address=notebooklm.google.com disabled=no dynamic=no list=my-bypass
+add address=notebooklm.google disabled=no dynamic=no list=my-bypass
+add address=www.notebooklm.google disabled=no dynamic=no list=my-bypass
+add address=aistudio.google.com disabled=no dynamic=no list=my-bypass
+add address=ai.google.dev disabled=no dynamic=no list=my-bypass
+add address=generativelanguage.googleapis.com disabled=no dynamic=no list=\
+    my-bypass
+add address=oauth2.googleapis.com disabled=no dynamic=no list=my-bypass
+add address=www.googleapis.com disabled=no dynamic=no list=my-bypass
+add address=apis.google.com disabled=no dynamic=no list=my-bypass
+add address=ted.com disabled=no dynamic=no list=my-bypass
+add address=ollama.com disabled=no dynamic=no list=my-bypass
+add address=search.brave.com comment=searxng-brave disabled=no dynamic=no \
+    list=my-bypass
+add address=duckduckgo.com comment=searxng-ddg disabled=no dynamic=no list=\
+    my-bypass
+add address=links.duckduckgo.com comment=searxng-ddg disabled=no dynamic=no \
+    list=my-bypass
+add address=html.duckduckgo.com comment=searxng-ddg disabled=no dynamic=no \
+    list=my-bypass
+add address=lite.duckduckgo.com comment=searxng-ddg disabled=no dynamic=no \
+    list=my-bypass
+add address=www.bing.com comment=searxng-bing disabled=no dynamic=no list=\
+    my-bypass
+add address=bing.com comment=searxng-bing disabled=no dynamic=no list=\
+    my-bypass
+add address=www.google.com comment=searxng-google disabled=no dynamic=no \
+    list=my-bypass
+add address=en.wikipedia.org comment=searxng-wiki disabled=no dynamic=no \
+    list=my-bypass
+add address=query.wikidata.org comment=searxng-wikidata disabled=no dynamic=\
+    no list=my-bypass
+add address=startpage.com comment=searxng-startpage disabled=no dynamic=no \
+    list=my-bypass
+add address=www.startpage.com comment=searxng-startpage disabled=no dynamic=\
+    no list=my-bypass
+add address=mojeek.com comment=searxng-mojeek disabled=no dynamic=no list=\
+    my-bypass
+add address=www.mojeek.com comment=searxng-mojeek disabled=no dynamic=no \
+    list=my-bypass
+add address=qwant.com comment=searxng-qwant disabled=no dynamic=no list=\
+    my-bypass
+add address=www.qwant.com comment=searxng-qwant disabled=no dynamic=no list=\
+    my-bypass
+add address=api.qwant.com comment=searxng-qwant disabled=no dynamic=no list=\
+    my-bypass
+add address=medium.com disabled=no dynamic=no list=my-bypass
+add address=www.ted.com disabled=no dynamic=no list=my-bypass
+#error exporting "/ip/firewall/address-list"
