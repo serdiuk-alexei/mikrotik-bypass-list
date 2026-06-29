@@ -1,9 +1,77 @@
-# 2026-06-21 22:48:39 by RouterOS 7.17
+# 2026-06-29 19:42:40 by RouterOS 7.23.1
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
 # serial number = HEH08YKAQXB
 /ip firewall address-list
+add address=nike.com comment=Nike disabled=no dynamic=no list=my-bypass
+add address=www.nike.com comment=Nike disabled=no dynamic=no list=my-bypass
+add address=api.nike.com comment="Nike API" disabled=no dynamic=no list=\
+    my-bypass
+add address=s3.nikecdn.com comment="Nike CDN" disabled=no dynamic=no list=\
+    my-bypass
+add address=static.nike.com comment="Nike static" disabled=no dynamic=no \
+    list=my-bypass
+add address=static.nike.com.multicdn.cloudinary.com comment=\
+    "Nike static Cloudinary" disabled=no dynamic=no list=my-bypass
+add address=nike-prod-cld.multicdn.cloudinary.com comment=\
+    "Nike Cloudinary CDN" disabled=no dynamic=no list=my-bypass
+add address=san-cn.cloudinary.com.edgekey.net comment=\
+    "Nike Cloudinary Akamai" disabled=no dynamic=no list=my-bypass
+add address=nikerunclub.sng.link comment="Nike deep links" disabled=no \
+    dynamic=no list=my-bypass
+add address=unite.nike.com comment="Nike login" disabled=no dynamic=no list=\
+    my-bypass
+add address=e31062.x.akamaiedge.net comment="Nike api Akamai confirmed" \
+    disabled=no dynamic=no list=my-bypass
+add address=23.12.157.106 comment="Nike Akamai working IP" disabled=no \
+    dynamic=no list=my-bypass
+add address=95.101.200.100 comment="Nike Akamai working IP" disabled=no \
+    dynamic=no list=my-bypass
+add address=13.33.235.48 comment="Nike CloudFront working IP" disabled=no \
+    dynamic=no list=my-bypass
+add address=34.247.8.118 comment="Nike AWS working IP" disabled=no dynamic=no \
+    list=my-bypass
+add address=162.247.241.4 comment="Nike working IP" disabled=no dynamic=no \
+    list=my-bypass
+add address=amp-api.podcasts.apple.com comment="Apple Podcasts" disabled=no \
+    dynamic=no list=my-bypass
+add address=podcasts.apple.com comment="Apple Podcasts" disabled=no dynamic=\
+    no list=my-bypass
+add address=podcasts-cdn.apple.com comment="Apple Podcasts CDN" disabled=no \
+    dynamic=no list=my-bypass
+add address=podcasts-cdn.itunes-apple.com comment="Apple Podcasts CDN" \
+    disabled=no dynamic=no list=my-bypass
+add address=podcasts.apple.com.cdn.cloudflare.net comment=\
+    "Apple Podcasts CDN" disabled=no dynamic=no list=my-bypass
+add address=itunes.apple.com comment="Apple Podcasts iTunes" disabled=no \
+    dynamic=no list=my-bypass
+add address=amp-api.music.apple.com comment="Apple Podcasts API" disabled=no \
+    dynamic=no list=my-bypass
+add address=api.music.apple.com comment="Apple API" disabled=no dynamic=no \
+    list=my-bypass
+add address=149.154.160.0/20 comment=Telegram disabled=no dynamic=no list=\
+    my-bypass
+add address=91.108.4.0/22 comment=Telegram disabled=no dynamic=no list=\
+    my-bypass
+add address=91.108.8.0/22 comment=Telegram disabled=no dynamic=no list=\
+    my-bypass
+add address=91.108.12.0/22 comment=Telegram disabled=no dynamic=no list=\
+    my-bypass
+add address=91.108.16.0/22 comment=Telegram disabled=no dynamic=no list=\
+    my-bypass
+add address=91.108.20.0/22 comment=Telegram disabled=no dynamic=no list=\
+    my-bypass
+add address=91.108.56.0/22 comment=Telegram disabled=no dynamic=no list=\
+    my-bypass
+add address=91.105.192.0/23 comment=Telegram disabled=no dynamic=no list=\
+    my-bypass
+add address=91.105.192.100 comment="Telegram seen before" disabled=no \
+    dynamic=no list=my-bypass
+add address=149.154.167.222 comment="Telegram seen before" disabled=no \
+    dynamic=no list=my-bypass
+add address=149.154.167.41 comment="Telegram seen before" disabled=no \
+    dynamic=no list=my-bypass
 add address=twitter.com disabled=no dynamic=no list=my-bypass
 add address=x.com disabled=no dynamic=no list=my-bypass
 add address=facebook.com disabled=no dynamic=no list=my-bypass
@@ -53,8 +121,6 @@ add address=cdn.discordapp.com disabled=no dynamic=no list=my-bypass
 add address=media.discordapp.net disabled=no dynamic=no list=my-bypass
 add address=images-ext-1.discordapp.net disabled=no dynamic=no list=my-bypass
 add address=images-ext-2.discordapp.net disabled=no dynamic=no list=my-bypass
-add address=discord-attachments-uploads-prd.storage.googleapis.com disabled=\
-    no dynamic=no list=my-bypass
 add address=discord.design disabled=no dynamic=no list=my-bypass
 add address=discord.store disabled=no dynamic=no list=my-bypass
 add address=discord.tools disabled=no dynamic=no list=my-bypass
@@ -235,13 +301,6 @@ add address=web.telegram.org disabled=no dynamic=no list=my-bypass
 add address=desktop.telegram.org disabled=no dynamic=no list=my-bypass
 add address=api.telegram.org disabled=no dynamic=no list=my-bypass
 add address=telegram.me disabled=no dynamic=no list=my-bypass
-add address=91.108.4.0/22 disabled=no dynamic=no list=my-bypass
-add address=91.108.8.0/22 disabled=no dynamic=no list=my-bypass
-add address=91.108.12.0/22 disabled=no dynamic=no list=my-bypass
-add address=91.108.16.0/22 disabled=no dynamic=no list=my-bypass
-add address=91.108.20.0/22 disabled=no dynamic=no list=my-bypass
-add address=91.108.56.0/22 disabled=no dynamic=no list=my-bypass
-add address=149.154.160.0/20 disabled=no dynamic=no list=my-bypass
 add address=185.76.151.0/24 disabled=no dynamic=no list=my-bypass
 add address=cdn.telegram.org disabled=no dynamic=no list=my-bypass
 add address=95.161.64.0/20 disabled=no dynamic=no list=my-bypass
@@ -253,7 +312,6 @@ add address=venus.telegram.org disabled=no dynamic=no list=my-bypass
 add address=flora.telegram.org disabled=no dynamic=no list=my-bypass
 add address=vesta.telegram.org disabled=no dynamic=no list=my-bypass
 add address=pluto.telegram.org disabled=no dynamic=no list=my-bypass
-add address=91.105.192.0/23 disabled=no dynamic=no list=my-bypass
 add address=91.108.0.0/16 disabled=no dynamic=no list=my-bypass
 add address=my.hostvds.com disabled=no dynamic=no list=my-bypass
 add address=panel.hostvds.com disabled=no dynamic=no list=my-bypass
@@ -321,8 +379,6 @@ add address=soundcloud.com disabled=no dynamic=no list=my-bypass
 add address=feeds.soundcloud.com disabled=no dynamic=no list=my-bypass
 add address=api-v2.soundcloud.com disabled=no dynamic=no list=my-bypass
 add address=cf-media.sndcdn.com disabled=no dynamic=no list=my-bypass
-add address=podcasts.apple.com disabled=no dynamic=no list=my-bypass
-add address=amp-api.podcasts.apple.com disabled=no dynamic=no list=my-bypass
 add address=is1-ssl.mzstatic.com disabled=no dynamic=no list=my-bypass
 add address=is2-ssl.mzstatic.com disabled=no dynamic=no list=my-bypass
 add address=is3-ssl.mzstatic.com disabled=no dynamic=no list=my-bypass
@@ -410,4 +466,8 @@ add address=api.qwant.com comment=searxng-qwant disabled=no dynamic=no list=\
     my-bypass
 add address=medium.com disabled=no dynamic=no list=my-bypass
 add address=www.ted.com disabled=no dynamic=no list=my-bypass
-#error exporting "/ip/firewall/address-list"
+add address=tradingview.com disabled=no dynamic=no list=my-bypass
+add address=ru.tradingview.com disabled=no dynamic=no list=my-bypass
+add address=discord-attachments-uploads-prd.storage.googleapis.com disabled=\
+    no dynamic=no list=my-bypass
+add address=speedtest.net disabled=no dynamic=no list=my-bypass
