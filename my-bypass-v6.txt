@@ -427,3 +427,11 @@ add address=74.125.205.0/24 list=my-bypass
 add address=udemy.com list=my-bypass
 add address=www.udemy.com list=my-bypass
 add address=udemycdn.com list=my-bypass
+add address=hls-enc-c.udemycdn.com list=my-bypass
+add address=mp4-c.udemycdn.com list=my-bypass
+add address=frontends.udemycdn.com list=my-bypass
+add address=img-c.udemycdn.com list=my-bypass
+add address=s.udemycdn.com list=my-bypass
+add address=google-analytics.com list=my-bypass
+add address=googleusercontent.com list=my-bypass
+add address=googletagmanager.com list=my-bypass

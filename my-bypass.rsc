@@ -1,4 +1,4 @@
-# 2026-07-15 09:38:50 by RouterOS 7.23.1
+# 2026-07-15 10:01:43 by RouterOS 7.23.1
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -517,4 +517,11 @@ add address=74.125.205.0/24 comment="youtube download test" disabled=no \
 add address=udemy.com disabled=no dynamic=no list=my-bypass
 add address=www.udemy.com disabled=no dynamic=no list=my-bypass
 add address=udemycdn.com disabled=no dynamic=no list=my-bypass
-#error exporting "/ip/firewall/address-list"
+add address=hls-enc-c.udemycdn.com disabled=no dynamic=no list=my-bypass
+add address=mp4-c.udemycdn.com disabled=no dynamic=no list=my-bypass
+add address=frontends.udemycdn.com disabled=no dynamic=no list=my-bypass
+add address=img-c.udemycdn.com disabled=no dynamic=no list=my-bypass
+add address=s.udemycdn.com disabled=no dynamic=no list=my-bypass
+add address=google-analytics.com disabled=no dynamic=no list=my-bypass
+add address=googleusercontent.com disabled=no dynamic=no list=my-bypass
+add address=googletagmanager.com disabled=no dynamic=no list=my-bypass
