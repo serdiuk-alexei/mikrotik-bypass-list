@@ -1,4 +1,4 @@
-# 2026-06-29 19:42:40 by RouterOS 7.23.1
+# 2026-07-15 09:38:50 by RouterOS 7.23.1
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -471,3 +471,50 @@ add address=ru.tradingview.com disabled=no dynamic=no list=my-bypass
 add address=discord-attachments-uploads-prd.storage.googleapis.com disabled=\
     no dynamic=no list=my-bypass
 add address=speedtest.net disabled=no dynamic=no list=my-bypass
+add address=www.bybit.com comment=bybit disabled=no dynamic=no list=my-bypass
+add address=app.bybit.com comment=bybit disabled=no dynamic=no list=my-bypass
+add address=api.bybit.com comment=bybit-api disabled=no dynamic=no list=\
+    my-bypass
+add address=stream.bybit.com comment=bybit-ws disabled=no dynamic=no list=\
+    my-bypass
+add address=bytick.com comment=bybit-alt-api disabled=no dynamic=no list=\
+    my-bypass
+add address=api.bytick.com comment=bybit-alt-api disabled=no dynamic=no list=\
+    my-bypass
+add address=stream.bytick.com comment=bybit-alt-ws disabled=no dynamic=no \
+    list=my-bypass
+add address=bybitglobal.com comment=bybit-global disabled=no dynamic=no list=\
+    my-bypass
+add address=www.bybitglobal.com comment=bybit-global disabled=no dynamic=no \
+    list=my-bypass
+add address=app.bybitglobal.com comment=bybit-global disabled=no dynamic=no \
+    list=my-bypass
+add address=bybit.eu comment=bybit-eu disabled=no dynamic=no list=my-bypass
+add address=www.bybit.eu comment=bybit-eu disabled=no dynamic=no list=\
+    my-bypass
+add address=api.bybit.eu comment=bybit-eu-api disabled=no dynamic=no list=\
+    my-bypass
+add address=testnet.bybit.com comment=bybit-testnet disabled=no dynamic=no \
+    list=my-bypass
+add address=api-testnet.bybit.com comment=bybit-testnet-api disabled=no \
+    dynamic=no list=my-bypass
+add address=stream-testnet.bybit.com comment=bybit-testnet-ws disabled=no \
+    dynamic=no list=my-bypass
+add address=api-demo.bybit.com comment=bybit-demo-api disabled=no dynamic=no \
+    list=my-bypass
+add address=stream-demo.bybit.com comment=bybit-demo-ws disabled=no dynamic=\
+    no list=my-bypass
+add address=googleapis.com disabled=no dynamic=no list=my-bypass
+add address=gvt1.com disabled=no dynamic=no list=my-bypass
+add address=172.253.152.0/24 comment="youtube download test" disabled=no \
+    dynamic=no list=my-bypass
+add address=142.251.153.0/24 comment="youtube download test" disabled=no \
+    dynamic=no list=my-bypass
+add address=64.233.162.0/24 comment="youtube download test" disabled=no \
+    dynamic=no list=my-bypass
+add address=74.125.205.0/24 comment="youtube download test" disabled=no \
+    dynamic=no list=my-bypass
+add address=udemy.com disabled=no dynamic=no list=my-bypass
+add address=www.udemy.com disabled=no dynamic=no list=my-bypass
+add address=udemycdn.com disabled=no dynamic=no list=my-bypass
+#error exporting "/ip/firewall/address-list"
