@@ -1,4 +1,4 @@
-# 2026-07-15 10:01:43 by RouterOS 7.23.1
+# 2026-09-13 10:51:50 by RouterOS 7.24.2
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -218,7 +218,6 @@ add address=voip.viber.com disabled=no dynamic=no list=my-bypass
 add address=content.viber.com disabled=no dynamic=no list=my-bypass
 add address=cdn.viber.com disabled=no dynamic=no list=my-bypass
 add address=images.viber.com disabled=no dynamic=no list=my-bypass
-add address=cloudfront.net disabled=no dynamic=no list=my-bypass
 add address=amazonaws.com disabled=no dynamic=no list=my-bypass
 add address=share.viber.com disabled=no dynamic=no list=my-bypass
 add address=dl-media.viber.com disabled=no dynamic=no list=my-bypass
@@ -525,3 +524,38 @@ add address=s.udemycdn.com disabled=no dynamic=no list=my-bypass
 add address=google-analytics.com disabled=no dynamic=no list=my-bypass
 add address=googleusercontent.com disabled=no dynamic=no list=my-bypass
 add address=googletagmanager.com disabled=no dynamic=no list=my-bypass
+add address=coursera.org disabled=no dynamic=no list=my-bypass
+add address=www.coursera.org disabled=no dynamic=no list=my-bypass
+add address=d3njjcbhbojbot.cloudfront.net disabled=no dynamic=no list=\
+    my-bypass
+add address=epson.com disabled=no dynamic=no list=my-bypass
+add address=epson.eu disabled=no dynamic=no list=my-bypass
+add address=epson.ru disabled=no dynamic=no list=my-bypass
+add address=epson.net disabled=no dynamic=no list=my-bypass
+add address=epson.sn comment="Epson Setup Navi" disabled=no dynamic=no list=\
+    my-bypass
+add address=epson.biz comment="Epson Business Downloads" disabled=no dynamic=\
+    no list=my-bypass
+add address=epsonconnect.com comment="Epson Connect" disabled=no dynamic=no \
+    list=my-bypass
+add address=epson-europe.com comment="Epson Europe Downloads" disabled=no \
+    dynamic=no list=my-bypass
+add address=support.epson.net comment="Epson Support" disabled=no dynamic=no \
+    list=my-bypass
+add address=support2.epson.net comment="Epson Support 2" disabled=no dynamic=\
+    no list=my-bypass
+add address=download-center.epson.com comment="Epson Download Center" \
+    disabled=no dynamic=no list=my-bypass
+add address=download.epson-biz.com comment="Epson Business Download" \
+    disabled=no dynamic=no list=my-bypass
+add address=download4.epson.biz comment="Epson Downloads" disabled=no \
+    dynamic=no list=my-bypass
+add address=download.epson-europe.com comment="Epson Europe Downloads" \
+    disabled=no dynamic=no list=my-bypass
+add address=download.ebz.epson.net comment="Epson Download" disabled=no \
+    dynamic=no list=my-bypass
+add address=download2.ebz.epson.net comment="Epson Download 2" disabled=no \
+    dynamic=no list=my-bypass
+add address=download3.ebz.epson.net comment="Epson Download 3" disabled=no \
+    dynamic=no list=my-bypass
+#error exporting "/ip/firewall/address-list"
