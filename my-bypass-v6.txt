@@ -454,3 +454,8 @@ add address=download.epson-europe.com list=my-bypass
 add address=download.ebz.epson.net list=my-bypass
 add address=download2.ebz.epson.net list=my-bypass
 add address=download3.ebz.epson.net list=my-bypass
+add address=robinfrontend-pa.googleapis.com list=my-bypass
+add address=signaler-pa.googleapis.com list=my-bypass
+add address=antigravity.google list=my-bypass
+add address=antigravity-unleash.goog list=my-bypass
+add address=cloudcode-pa.googleapis.com list=my-bypass

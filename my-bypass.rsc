@@ -1,4 +1,4 @@
-# 2026-09-13 10:51:50 by RouterOS 7.24.2
+# 2026-09-18 22:27:07 by RouterOS 7.24.2
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -558,4 +558,12 @@ add address=download2.ebz.epson.net comment="Epson Download 2" disabled=no \
     dynamic=no list=my-bypass
 add address=download3.ebz.epson.net comment="Epson Download 3" disabled=no \
     dynamic=no list=my-bypass
-#error exporting "/ip/firewall/address-list"
+add address=robinfrontend-pa.googleapis.com disabled=no dynamic=no list=\
+    my-bypass
+add address=signaler-pa.googleapis.com disabled=no dynamic=no list=my-bypass
+add address=antigravity.google comment=antigravity disabled=no dynamic=no \
+    list=my-bypass
+add address=antigravity-unleash.goog comment=antigravity disabled=no dynamic=\
+    no list=my-bypass
+add address=cloudcode-pa.googleapis.com comment=antigravity disabled=no \
+    dynamic=no list=my-bypass

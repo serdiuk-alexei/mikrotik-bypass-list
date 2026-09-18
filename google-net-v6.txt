@@ -1,0 +1,4 @@
+# sep/18/2026 22:23:42 by RouterOS 6.49.19
+# software id = IZ4S-GT9M
+#
+ # NAME                   TYPE                        SIZE CREATION-TIME       
