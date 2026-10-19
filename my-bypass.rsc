@@ -1,4 +1,4 @@
-# 2026-09-18 22:27:07 by RouterOS 7.24.2
+# 2026-10-19 14:26:18 by RouterOS 7.24.5
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -567,3 +567,110 @@ add address=antigravity-unleash.goog comment=antigravity disabled=no dynamic=\
     no list=my-bypass
 add address=cloudcode-pa.googleapis.com comment=antigravity disabled=no \
     dynamic=no list=my-bypass
+add address=104.18.32.47 comment=chatgpt-manual-20260925,chatgpt.com \
+    disabled=no dynamic=no list=my-bypass
+add address=172.64.155.209 comment=chatgpt-manual-20260925,chatgpt.com \
+    disabled=no dynamic=no list=my-bypass
+add address=a-api.anthropic.com disabled=no dynamic=no list=my-bypass
+add address=a-cdn.anthropic.com disabled=no dynamic=no list=my-bypass
+add address=s-cdn.anthropic.com disabled=no dynamic=no list=my-bypass
+add address=assets-proxy.anthropic.com disabled=no dynamic=no list=my-bypass
+add address=mcp-proxy.anthropic.com disabled=no dynamic=no list=my-bypass
+add address=statsig.anthropic.com disabled=no dynamic=no list=my-bypass
+add address=a.claude.ai disabled=no dynamic=no list=my-bypass
+add address=a-cdn.claude.ai disabled=no dynamic=no list=my-bypass
+add address=assets.claude.ai disabled=no dynamic=no list=my-bypass
+add address=downloads.claude.ai disabled=no dynamic=no list=my-bypass
+add address=sealed-entry.claude.ai disabled=no dynamic=no list=my-bypass
+add address=code.claude.com disabled=no dynamic=no list=my-bypass
+add address=support.claude.com disabled=no dynamic=no list=my-bypass
+add address=releases.claude.com disabled=no dynamic=no list=my-bypass
+add address=microsoft365.mcp.claude.com disabled=no dynamic=no list=my-bypass
+add address=claude.app disabled=no dynamic=no list=my-bypass
+add address=claudeusercontent.com disabled=no dynamic=no list=my-bypass
+add address=www.claudeusercontent.com disabled=no dynamic=no list=my-bypass
+add address=gdrive.claudeusercontent.com disabled=no dynamic=no list=\
+    my-bypass
+add address=bridge.claudeusercontent.com disabled=no dynamic=no list=\
+    my-bypass
+add address=claudemcpcontent.com disabled=no dynamic=no list=my-bypass
+add address=sandbox.claudemcpcontent.com disabled=no dynamic=no list=\
+    my-bypass
+add address=claudemcpclient.com disabled=no dynamic=no list=my-bypass
+add address=www.claudemcpclient.com disabled=no dynamic=no list=my-bypass
+add address=registry.npmjs.org disabled=no dynamic=no list=my-bypass
+add address=github.com disabled=no dynamic=no list=my-bypass
+add address=raw.githubusercontent.com disabled=no dynamic=no list=my-bypass
+add address=objects.githubusercontent.com disabled=no dynamic=no list=\
+    my-bypass
+add address=pypi.org disabled=no dynamic=no list=my-bypass
+add address=files.pythonhosted.org disabled=no dynamic=no list=my-bypass
+add address=formulae.brew.sh disabled=no dynamic=no list=my-bypass
+add address=sentry.io disabled=no dynamic=no list=my-bypass
+add address=statsig.com disabled=no dynamic=no list=my-bypass
+add address=http-intake.logs.us5.datadoghq.com disabled=no dynamic=no list=\
+    my-bypass
+add address=browser-intake-us5-datadoghq.com disabled=no dynamic=no list=\
+    my-bypass
+add address=browser-intake-datadoghq.com disabled=no dynamic=no list=\
+    my-bypass
+add address=browser-intake-us3-datadoghq.com disabled=no dynamic=no list=\
+    my-bypass
+add address=browser-intake-ap1-datadoghq.com disabled=no dynamic=no list=\
+    my-bypass
+add address=browser-intake-ap2-datadoghq.com disabled=no dynamic=no list=\
+    my-bypass
+add address=browser-intake-datadoghq.eu disabled=no dynamic=no list=my-bypass
+add address=browser-intake-ddog-gov.com disabled=no dynamic=no list=my-bypass
+add address=chromewebstore.google.com disabled=no dynamic=no list=my-bypass
+add address=clients2.google.com disabled=no dynamic=no list=my-bypass
+add address=clients2.googleusercontent.com disabled=no dynamic=no list=\
+    my-bypass
+add address=fonts.googleapis.com disabled=no dynamic=no list=my-bypass
+add address=cdnjs.cloudflare.com disabled=no dynamic=no list=my-bypass
+add address=cdn.jsdelivr.net disabled=no dynamic=no list=my-bypass
+add address=cdn.tailwindcss.com disabled=no dynamic=no list=my-bypass
+add address=code.jquery.com disabled=no dynamic=no list=my-bypass
+add address=unpkg.com disabled=no dynamic=no list=my-bypass
+add address=pay.google.com disabled=no dynamic=no list=my-bypass
+add address=redirector.gvt1.com disabled=no dynamic=no list=my-bypass
+add address=login.microsoftonline.com disabled=no dynamic=no list=my-bypass
+add address=hcaptcha.com disabled=no dynamic=no list=my-bypass
+add address=js.stripe.com disabled=no dynamic=no list=my-bypass
+add address=r.stripe.com disabled=no dynamic=no list=my-bypass
+add address=m.stripe.network disabled=no dynamic=no list=my-bypass
+add address=b.stripecdn.com disabled=no dynamic=no list=my-bypass
+add address=embedded-dashboards.metronome.com disabled=no dynamic=no list=\
+    my-bypass
+add address=js.intercomcdn.com disabled=no dynamic=no list=my-bypass
+add address=fonts.intercomcdn.com disabled=no dynamic=no list=my-bypass
+add address=downloads.intercomcdn.com disabled=no dynamic=no list=my-bypass
+add address=downloads.intercomcdn.eu disabled=no dynamic=no list=my-bypass
+add address=downloads.au.intercomcdn.com disabled=no dynamic=no list=\
+    my-bypass
+add address=gifs.intercomcdn.com disabled=no dynamic=no list=my-bypass
+add address=video-messages.intercomcdn.com disabled=no dynamic=no list=\
+    my-bypass
+add address=static.intercomassets.com disabled=no dynamic=no list=my-bypass
+add address=static.intercomassets.eu disabled=no dynamic=no list=my-bypass
+add address=static.au.intercomassets.com disabled=no dynamic=no list=\
+    my-bypass
+add address=uploads.intercomusercontent.com disabled=no dynamic=no list=\
+    my-bypass
+add address=api-iam.intercom.io disabled=no dynamic=no list=my-bypass
+add address=api-iam.eu.intercom.io disabled=no dynamic=no list=my-bypass
+add address=api-iam.au.intercom.io disabled=no dynamic=no list=my-bypass
+add address=messenger-apps.intercom.io disabled=no dynamic=no list=my-bypass
+add address=messenger-apps.eu.intercom.io disabled=no dynamic=no list=\
+    my-bypass
+add address=messenger-apps.au.intercom.io disabled=no dynamic=no list=\
+    my-bypass
+add address=intercom.help disabled=no dynamic=no list=my-bypass
+add address=intercom-sheets.com disabled=no dynamic=no list=my-bypass
+add address=www.intercom-reporting.com disabled=no dynamic=no list=my-bypass
+add address=form.typeform.com disabled=no dynamic=no list=my-bypass
+add address=forms.hsforms.com disabled=no dynamic=no list=my-bypass
+add address=cdn.sanity.io disabled=no dynamic=no list=my-bypass
+add address=www.youtube-nocookie.com disabled=no dynamic=no list=my-bypass
+add address=player.vimeo.com disabled=no dynamic=no list=my-bypass
+add address=fast.wistia.net disabled=no dynamic=no list=my-bypass
