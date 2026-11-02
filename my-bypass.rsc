@@ -1,4 +1,4 @@
-# 2026-10-19 14:26:18 by RouterOS 7.24.5
+# 2026-11-02 17:41:17 by RouterOS 7.24.5
 # software id = K4EM-YM28
 #
 # model = C52iG-5HaxD2HaxD
@@ -674,3 +674,9 @@ add address=cdn.sanity.io disabled=no dynamic=no list=my-bypass
 add address=www.youtube-nocookie.com disabled=no dynamic=no list=my-bypass
 add address=player.vimeo.com disabled=no dynamic=no list=my-bypass
 add address=fast.wistia.net disabled=no dynamic=no list=my-bypass
+add address=nym.com comment=nym disabled=no dynamic=no list=my-bypass
+add address=www.nym.com comment=nym disabled=no dynamic=no list=my-bypass
+add address=aleph.cloud comment=aleph disabled=no dynamic=no list=my-bypass
+add address=www.aleph.cloud comment=aleph disabled=no dynamic=no list=\
+    my-bypass
+#error exporting "/ip/firewall/address-list"

@@ -546,3 +546,7 @@ add address=cdn.sanity.io list=my-bypass
 add address=www.youtube-nocookie.com list=my-bypass
 add address=player.vimeo.com list=my-bypass
 add address=fast.wistia.net list=my-bypass
+add address=nym.com list=my-bypass
+add address=www.nym.com list=my-bypass
+add address=aleph.cloud list=my-bypass
+add address=www.aleph.cloud list=my-bypass
